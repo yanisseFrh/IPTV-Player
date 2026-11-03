@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_900">#0A2A5E</color>
+    <color name="blue_800">#0D47A1</color>
+    <color name="blue_700">#1565C0</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_300">#64B5F6</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_100">#D6E6FA</color>
+    <color name="blue_50">#EAF3FE</color>
+
+    <color name="bg">#F2F7FE</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text">#0B1F3A</color>
+    <color name="text_muted">#5B6B82</color>
+    <color name="white">#FFFFFF</color>
+    <color name="error">#B3261E</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="player_overlay">#CC0A2A5E</color>
+    <color name="player_hint">#B3000000</color>
+</resources>

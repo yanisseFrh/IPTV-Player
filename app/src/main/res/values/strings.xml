@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IPTVPlayer</string>
+    <string name="brand_tag">IPTV • XTREAM</string>
+    <string name="home_version">IPTVPlayer • v1.0</string>
+    <string name="tagline">Votre télévision, simplement.</string>
+    <string name="setup_title">Connexion</string>
+    <string name="setup_title_edit">Mon compte</string>
+    <string name="setup_help">Entrez les identifiants de votre fournisseur Xtream.</string>
+    <string name="setup_help_edit">Modifiez les identifiants de votre fournisseur.</string>
+    <string name="label_server">Adresse du serveur</string>
+    <string name="hint_server">Exemple : http://mon-serveur.com:8080</string>
+    <string name="label_user">Nom d\'utilisateur</string>
+    <string name="label_password">Mot de passe</string>
+    <string name="show_password">Afficher le mot de passe</string>
+    <string name="connect">Se connecter</string>
+    <string name="save">Enregistrer</string>
+    <string name="connecting">Connexion en cours…</string>
+    <string name="stored_locally">Vos identifiants restent sur cet appareil.</string>
+    <string name="error_empty_server">Indiquez l\'adresse du serveur.</string>
+    <string name="error_empty_user">Indiquez votre nom d\'utilisateur.</string>
+    <string name="error_empty_password">Indiquez votre mot de passe.</string>
+
+    <string name="home_question">Que souhaitez-vous regarder ?</string>
+    <string name="home_help">Utilisez les flèches de la télécommande, puis appuyez sur OK.</string>
+    <string name="home_live">TV en direct</string>
+    <string name="home_movies">Films</string>
+    <string name="home_account">Mon compte</string>
+    <string name="home_connected">Connecté : %1$s</string>
+    <string name="home_not_connected">Aucun compte configuré</string>
+    <string name="expiry_until">Abonnement jusqu\'au %1$s</string>
+    <string name="expiry_expired">Abonnement expiré le %1$s</string>
+    <string name="expiry_none">Expiration non communiquée par le serveur</string>
+    <string name="account_saved">Compte enregistré</string>
+
+    <string name="live_title">TV en direct</string>
+    <string name="movies_title">Films</string>
+    <string name="back">‹ Retour</string>
+    <string name="categories">Catégories</string>
+    <string name="loading_categories">Chargement des catégories…</string>
+    <string name="loading_items">Chargement des chaînes…</string>
+    <string name="loading_movies">Chargement des films…</string>
+    <string name="empty_categories">Aucune catégorie trouvée.</string>
+    <string name="empty_items">Aucune chaîne dans cette catégorie.</string>
+    <string name="empty_movies">Aucun film dans cette catégorie.</string>
+    <string name="retry">Réessayer</string>
+    <string name="count_channels">%1$d chaînes</string>
+    <string name="count_channel">%1$d chaîne</string>
+    <string name="count_movies">%1$d films</string>
+    <string name="count_movie">%1$d film</string>
+
+    <string name="player_loading">Chargement de la lecture…</string>
+    <string name="player_live">En direct</string>
+    <string name="player_movie">Film</string>
+    <string name="player_hint">Touche Retour de la télécommande : quitter</string>
+    <string name="player_error_title">Lecture impossible</string>
+    <string name="player_error_text">Vérifiez votre connexion internet, puis réessayez.</string>
+    <string name="player_retry">Réessayer</string>
+    <string name="player_quit">Retour à la liste</string>
+
+    <string name="err_timeout">Le serveur ne répond pas. Vérifiez l\'adresse et votre connexion.</string>
+    <string name="err_host">Adresse du serveur introuvable.</string>
+    <string name="err_ssl">Connexion sécurisée impossible avec ce serveur.</string>
+    <string name="err_network">Connexion au serveur impossible.</string>
+    <string name="err_server">Le serveur a répondu une erreur (%1$d).</string>
+    <string name="err_bad_json">Réponse inattendue du serveur Xtream.</string>
+    <string name="err_login">Identifiants refusés. Vérifiez le serveur, l\'utilisateur et le mot de passe.</string>
+    <string name="err_inactive">Ce compte Xtream n\'est pas actif.</string>
+</resources>

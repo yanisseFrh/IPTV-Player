@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_header"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/accountLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/expiryLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/blue_100"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/home_question"
+            android:textColor="@color/text"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/home_help"
+            android:textColor="@color/text_muted"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/liveButton"
+            style="@style/AppButton"
+            android:layout_width="560dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="18dp"
+            android:drawableStart="@drawable/ic_tv"
+            android:drawablePadding="20dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="32dp"
+            android:text="@string/home_live"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/moviesButton"
+            style="@style/AppButton"
+            android:layout_width="560dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="12dp"
+            android:drawableStart="@drawable/ic_movie"
+            android:drawablePadding="20dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="32dp"
+            android:text="@string/home_movies"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/accountButton"
+            style="@style/AppButton"
+            android:layout_width="560dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="12dp"
+            android:drawableStart="@drawable/ic_account"
+            android:drawablePadding="20dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="32dp"
+            android:text="@string/home_account"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/home_version"
+            android:textColor="@color/text_muted"
+            android:textSize="13sp" />
+    </LinearLayout>
+</LinearLayout>
